@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       {/* TOP BAR */}
-      <div className="flex items-center justify-between px-11 py-3 h-[58.76px]">
+      <div className="flex items-center justify-between px-11 py-12 lg:px-30 lg:py-12 h-[58.76px]">
         <img src="/Logo.png" alt="logo" />
 
         <div className="flex gap-4 items-center">
