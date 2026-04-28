@@ -38,7 +38,7 @@ const Header = () => {
 
       {/* MOBILE MENU (WITH ANIMATION) */}
       <div
-        className={`absolute w-full bg-emerald-100 shadow-md min-[901px]:hidden overflow-hidden transition-all duration-300 ease-in-out
+        className={`fixed mt-8 w-full bg-emerald-100 shadow-md min-[901px]:hidden overflow-hidden transition-all duration-300 ease-in-out
         ${open ? "max-h-96 opacity-100 py-4" : "max-h-0 opacity-0 py-0"}`}
       >
         <div className="flex flex-col gap-3 px-10">
