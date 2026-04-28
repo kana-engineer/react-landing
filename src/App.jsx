@@ -1,3 +1,4 @@
+import Business from "./Components/Business";
 import Cards from "./Components/Cards";
 import Content from "./Components/Content";
 import Header from "./Components/Header";
@@ -12,6 +13,7 @@ export function App() {
       <Content/>
       <Cards/>
       <Unseen/>
+      <Business/>
     </>
   )
 }
