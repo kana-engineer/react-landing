@@ -4,6 +4,7 @@ import Content from "./Components/Content";
 import Design from "./Components/Design";
 import Header from "./Components/Header";
 import Overlay from "./Components/Overlay";
+import Smith from "./Components/Smith";
 import Unseen from "./Components/Unseen";
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
       <Unseen/>
       <Business/>
       <Design/>
+      <Smith/>
     </>
   )
 }
