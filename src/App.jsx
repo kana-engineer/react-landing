@@ -1,5 +1,6 @@
 import Business from "./Components/Business";
 import Cards from "./Components/Cards";
+import Caring from "./Components/Caring";
 import Content from "./Components/Content";
 import Design from "./Components/Design";
 import Header from "./Components/Header";
@@ -18,6 +19,7 @@ export function App() {
       <Business/>
       <Design/>
       <Smith/>
+      <Caring/>
     </>
   )
 }
