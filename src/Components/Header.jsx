@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Header = () => {
+const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -63,3 +63,5 @@ export const Header = () => {
     </div>
   );
 }
+
+export default Header;
