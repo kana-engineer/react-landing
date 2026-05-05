@@ -2,6 +2,7 @@ import Business from "./Components/Business";
 import Cards from "./Components/Cards";
 import Caring from "./Components/Caring";
 import Content from "./Components/Content";
+import Demo from "./Components/Demo";
 import Design from "./Components/Design";
 import Header from "./Components/Header";
 import Overlay from "./Components/Overlay";
@@ -20,6 +21,7 @@ export function App() {
       <Design/>
       <Smith/>
       <Caring/>
+      <Demo/>
     </>
   )
 }

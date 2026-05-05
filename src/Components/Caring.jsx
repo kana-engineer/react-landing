@@ -26,7 +26,6 @@ const Caring = () => {
                             <button className="text-[#4CAF4F] cursor-pointer">Readmore</button>
                             <i class='bx bx-right-arrow-alt text-[#4CAF4F] cursor-pointer'></i>
                         </nav>
-                        
                     </nav>
                 </div>
                 <div className="flex flex-col items-center justify-center mb-25">
