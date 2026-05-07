@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
         <div className="App">
-            <div className="grid grid-cols-[2fr_1fr_1fr_1fr] px-11 py-12 lg:px-30 lg:py-12 bg-[#263238]">
-                <div className="flex flex-col items-start justify-around">
+            <div className="grid lg:grid-cols-[2fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr] gap-10 px-11 py-12 lg:px-30 lg:py-12 bg-[#263238] lg:h-80 h-240">
+                <div className="flex flex-col justify-around gap-10">
                     <img className="w-40" src="/iconss.png" alt="" />
                     <nav>
                         <p className="text-white">Copyright © 2020 Landify UI Kit.</p>
