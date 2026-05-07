@@ -8,7 +8,7 @@ import Header from "./Components/Header";
 import Overlay from "./Components/Overlay";
 import Smith from "./Components/Smith";
 import Unseen from "./Components/Unseen";
-import Unseen from "./Components/Footer";
+import Footer from "./Components/Footer";
 
 export function App() {
   return (
