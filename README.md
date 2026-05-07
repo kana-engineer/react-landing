@@ -1,16 +1,43 @@
-# React + Vite
+# Nextcent Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern responsive landing page built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a business-style landing page with a modern UI, responsive layout, reusable React components, and clean Tailwind CSS styling.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design
+- React component architecture
+- Tailwind CSS
+- Modern UI layout
+- Mobile-friendly
+- Clean project structure
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- JavaScript
+- Vite
+
+## Project Structure
+
+```bash
+src/
+ ├── Components/
+ │    ├── Header.jsx
+ │    ├── Overlay.jsx
+ │    ├── Content.jsx
+ │    ├── Cards.jsx
+ │    ├── Unseen.jsx
+ │    ├── Business.jsx
+ │    ├── Design.jsx
+ │    ├── Smith.jsx
+ │    ├── Caring.jsx
+ │    ├── Demo.jsx
+ │    └── Footer.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
